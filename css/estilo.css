@@ -1,0 +1,60 @@
+  body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        details {
+            background-color: #e2e2e2;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            color: #007BFF;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="number"] {
+            padding: 5px;
+            width: 100%;
+            max-width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #25d8d8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #25d8d8;
+        }
+
+        #kelvin, #farenheit, #rankine, #reaumur {
+            font-weight: bold;
+            margin-top: 10px;
+        }
